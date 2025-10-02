@@ -10,6 +10,12 @@ variable "gcp_region" {
   default     = "us-west2" # Defaulting to your region
 }
 
+variable "db_version" {
+  description = "Name of Postgres's version"
+  type        = string
+  default     = "POSTGRES_17"
+}
+
 variable "db_name" {
   description = "Name for the Cloud SQL database."
   type        = string

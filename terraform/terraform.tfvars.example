@@ -6,6 +6,7 @@
 # gcp_region     = "us-west2"
 # db_name        = "n8n"
 # db_user        = "n8n-user"
+# db_version     = "POSTGRES_14"
 # db_tier        = "db-f1-micro"
 # db_storage_size = 10
 # artifact_repo_name = "n8n-repo"
